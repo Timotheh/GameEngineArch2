@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class DungGen : MonoBehaviour {
 
-	// Use this for initialization
-	void Start ()
+    public enum Block
     {
-        int Xmax = 64;   //max number of x collums
-        int Ymax = 64;      // max number y row's
+        Wall, Floor
+    }
+
+    int Xmax = 64;   //max number of x collums
+    int Ymax = 64;      // max number y row's
+    public 
+
+    void Start ()
+    {
+        
 	    	
 	}
 	
